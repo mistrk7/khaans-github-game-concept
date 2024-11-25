@@ -9,10 +9,10 @@ function preload() {
   player = loadImage('player.png');
   enemy = loadImage('enemy.png');
 
-  slides.push(loadImage('slides/1.PNG'));
-  slides.push(loadImage('slides/2.PNG'));
-  slides.push(loadImage('slides/3.PNG'));
-  slides.push(loadImage('slides/4.PNG'));
+  slides.push(loadImage('slides/1.png'));
+  slides.push(loadImage('slides/2.png'));
+  slides.push(loadImage('slides/3.png'));
+  slides.push(loadImage('slides/4.png'));
   slides.push(loadImage('slides/5.png'));
 }
 
@@ -43,7 +43,7 @@ function draw() {
     shoot(pos.x, pos.y);
   }
 
-  // Update x and y if an arrow key is pressed for movement.
+  // Update x and y if arrow key is pressed for movement
   if (keyIsDown(LEFT_ARROW)) {
     pos.x -= 10;
   }
@@ -65,7 +65,7 @@ function draw() {
 
   // draw the enemy
   s += 10;
-  s = s % 1280; // Reset enemy position when it goes off screen
+  s = s % 1280; // Reset enemy position 
   image(enemy, s, 100);
 
   // for the slides
