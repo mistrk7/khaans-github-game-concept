@@ -13,7 +13,7 @@ function preload() {
   slides.push(loadImage('slides/2.PNG'));
   slides.push(loadImage('slides/3.PNG'));
   slides.push(loadImage('slides/4.PNG'));
-  slides.push(loadImage('slides/5.PNG'));
+  slides.push(loadImage('slides/5.png'));
 }
 
 function setup() {
