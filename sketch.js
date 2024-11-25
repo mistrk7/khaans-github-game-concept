@@ -6,14 +6,14 @@ let h = 1;
 let s = 0;
 
 function preload() {
-  player = loadImage('player.png');
-  enemy = loadImage('enemy.png');
+  player = loadImage('./player.png');
+  enemy = loadImage('./enemy.png');
 
-  slides.push(loadImage('slides/1.png'));
-  slides.push(loadImage('slides/2.png'));
-  slides.push(loadImage('slides/3.png'));
-  slides.push(loadImage('slides/4.png'));
-  slides.push(loadImage('slides/5.png'));
+  slides.push(loadImage('./slides/1.png'));
+  slides.push(loadImage('./slides/2.png'));
+  slides.push(loadImage('./slides/3.png'));
+  slides.push(loadImage('./slides/4.png'));
+  slides.push(loadImage('./slides/5.png'));
 }
 
 function setup() {
